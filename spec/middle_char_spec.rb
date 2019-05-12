@@ -5,4 +5,8 @@ describe 'get_middle' do
     expect(get_middle('Hey')).to eq('e')
   end
 
+  it 'returns the middle two characters of an even lengthed string' do
+    expect(get_middle('Heey')).to eq('ee')
+  end
+
 end
